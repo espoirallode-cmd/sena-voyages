@@ -15,5 +15,10 @@ export default defineConfig({
   nitro: {
     // Target Vercel serverless functions instead of the default Cloudflare Workers
     preset: "vercel",
+    output: {
+      dir: ".vercel/output",
+      serverDir: ".vercel/output/functions/__server.func",
+      publicDir: ".vercel/output/static",
+    },
   },
 });
