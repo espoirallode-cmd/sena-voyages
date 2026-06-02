@@ -202,6 +202,10 @@
 }
 .btn-ghost:hover { background: var(--sena-blue); color: #fff; }
 
+.mobile-only {
+  display: none !important;
+}
+
 /* ============ Navbar ============ */
 .sena-navbar {
   position: sticky; top: 0; z-index: 50;
@@ -528,5 +532,14 @@
     margin-top: -3rem;
     position: relative;
     z-index: 10;
+  }
+  .mobile-only {
+    display: block !important;
+  }
+  .desktop-only {
+    display: none !important;
+  }
+  .mobile-nowrap {
+    white-space: nowrap;
   }
 }

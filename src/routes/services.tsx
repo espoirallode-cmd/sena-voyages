@@ -28,8 +28,12 @@ function ServicesPage() {
     <>
       <section className="page-hero">
         <span className="section-eyebrow">Nos services</span>
-        <h1>Un accompagnement <span className="text-gradient">de bout en bout</span></h1>
-        <p>De la première recherche au retour à Cotonou, nos équipes orchestrent chaque détail.</p>
+        <h1 className="desktop-only">Un accompagnement <span className="text-gradient">de bout en bout</span></h1>
+        <h1 className="mobile-only">
+          Un accompa-<br />
+          <span className="mobile-nowrap">gnement <span className="text-gradient">de</span></span> <span className="text-gradient">bout en bout</span>
+        </h1>
+        <p>De la première recherche au retour à Cotonou, nos équipes orchestrent <span className="mobile-nowrap">chaque détail.</span></p>
       </section>
       <section className="section">
         <div className="container">
@@ -46,7 +50,7 @@ function ServicesPage() {
       </section>
       <section className="section" style={{ background: "#fafbff" }}>
         <div className="container animate-on-scroll" style={{ textAlign: "center" }}>
-          <h2 className="font-display section-title">Besoin d'un <span className="text-gradient">service sur-mesure ?</span></h2>
+          <h2 className="font-display section-title">Besoin d'un <span className="text-gradient">service <span className="mobile-nowrap">sur-mesure ?</span></span></h2>
           <p className="section-sub">Décrivez-nous votre projet, nous construisons l'itinéraire qui vous ressemble.</p>
           <Link to="/contact" className="btn-cta"><i className="fa-solid fa-paper-plane" /> Nous contacter</Link>
         </div>
