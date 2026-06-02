@@ -53,7 +53,7 @@ function Home() {
         <div className="hero-content">
           <div className="hero-left">
             <h1 className="font-display">
-              Voyagez <span className="text-gradient">Sans Frontières,</span><br />
+              Voyagez <span className="text-gradient">Sans Frontières,</span><br className="hero-br" />
               Depuis le Bénin
             </h1>
             <p className="lead">
