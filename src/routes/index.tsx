@@ -54,7 +54,7 @@ function Home() {
           <div className="hero-left">
             <h1 className="font-display">
               Voyagez <span className="text-gradient">Sans Frontières,</span><br className="hero-br" />
-              Depuis le Bénin
+              Depuis <span className="hero-benin">le Bénin</span>
             </h1>
             <p className="lead">
               Sena Voyages vous accompagne à chaque étape — billets d'avion, hôtels, navettes
